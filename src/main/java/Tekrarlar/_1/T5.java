@@ -1,4 +1,4 @@
-package Tekrarlar;
+package Tekrarlar._1;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
