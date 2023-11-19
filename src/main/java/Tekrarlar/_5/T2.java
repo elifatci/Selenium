@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 
 public class T2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver,chrome,driver", "kurulumDosyalari/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -43,6 +43,7 @@ public class T2 {
         } else {
             System.out.println("Error test is FAİLED");
         }
+        Thread.sleep(2000);
         driver.quit();
 
     }
